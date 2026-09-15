@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Jimmy's Barber Shop",
   shortName: "Jimmy's",
-  tagline: "Your barber on Haverstock Hill.",
+  tagline: "Ask for Jimmy.",
   description:
     "Classic neighbourhood barbershop in Belsize Park. Men's haircuts, scissor cuts, beard trim, and wet shave. Call Jimmy to book.",
   address: {

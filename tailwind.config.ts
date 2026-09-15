@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        forest: "#1F3D2F",
-        woodland: "#13261C",
+        forest: "#1A3428",
+        woodland: "#0C1812",
         cream: "#F4F0E6",
         parchment: "#E8E2D4",
         brass: "#B08D57",
