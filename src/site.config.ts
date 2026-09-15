@@ -23,7 +23,7 @@ export const siteConfig = {
   rating: {
     value: 4.8,
     count: 81,
-    label: "Google reviews (approx.)",
+    label: "Google",
   },
   hoursNote:
     "Hours vary by listing — call Jimmy to confirm before you visit.",
@@ -76,39 +76,57 @@ export const siteConfig = {
   reviews: [
     {
       quote:
-        "Really listens — doesn't force a style on you. Just asks what you want and gets it right.",
+        "Quality barber. No fuss, efficient and very tidy job. Good conversation too.",
+      author: "Harry Clements",
+      source: "Google",
+    },
+    {
+      quote:
+        "Very quality haircut, cheap prices, superb service! Will definitely come back. Thanks Jimmy!",
+      author: "Alex T",
+      source: "Google",
+    },
+    {
+      quote:
+        "Jimmy's always a good chat and is really knowledgeable on all things hair. He really listens to what you're after.",
+      author: "S. V.",
+      source: "Google",
+    },
+    {
+      quote:
+        "Jimmy has been cutting my hair for 25 years and I can honestly say this is the best barber shop in the world!!",
+      author: "H. H.",
+      source: "Google",
+    },
+    {
+      quote:
+        "He immediately understood what I wanted and gave me a great cut, while also explaining what he was doing technically.",
+      author: "M. G.",
+      source: "Google",
+    },
+    {
+      quote:
+        "Finally found a barber who listens to his customers offering genuine advice and a great cut at a brilliant price.",
+      author: "V. H.",
+      source: "Google",
+    },
+    {
+      quote:
+        "Fast affordable and professional, haven't had a bad cut over several years. Very amicable man, worth it for the conversation alone!",
       author: "Local regular",
-    },
-    {
-      quote:
-        "Brilliant with curly hair. Finally found someone who knows what they're doing.",
-      author: "Google review",
-    },
-    {
-      quote: "Efficient, tidy cut and a proper conversation. Affordable too.",
-      author: "Belsize regular",
-    },
-    {
-      quote:
-        "Consistent every time. That's why I keep coming back to Jimmy.",
-      author: "Google review",
-    },
-    {
-      quote:
-        "No fuss — walks in, sits down, walks out looking sorted. Proper barber.",
-      author: "Haverstock visitor",
-    },
-    {
-      quote:
-        "Great with longer hair. He takes his time and gets the shape right.",
-      author: "Google review",
+      source: "Google",
     },
   ],
   trustChips: [
-    "~4.8 rating",
+    "4.8 Google · 81 reviews",
     "Call to book",
     "Near Chalk Farm",
     "No fuss, tidy cuts",
+  ],
+  suggestedDomains: [
+    "jimmysbarbernw3.co.uk",
+    "jimmyshaverstock.co.uk",
+    "jimmysbarberbelsize.co.uk",
   ],
   seo: {
     title:

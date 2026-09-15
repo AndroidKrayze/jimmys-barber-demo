@@ -1,9 +1,10 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { siteConfig } from "../site.config";
 
 export function Hero() {
+  const reduce = useReducedMotion();
   return (
     <section
       id="top"
@@ -16,16 +17,16 @@ export function Hero() {
           </p>
           <motion.h1
             className="font-display text-4xl font-bold leading-tight text-forest sm:text-5xl lg:text-[3.25rem]"
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={reduce ? false : { opacity: 0, y: 16 }}
+            animate={reduce ? undefined : { opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
             {siteConfig.tagline}
           </motion.h1>
           <motion.div
             className="my-5 h-0.5 w-24 origin-left bg-brass"
-            initial={{ scaleX: 0 }}
-            animate={{ scaleX: 1 }}
+            initial={reduce ? false : { scaleX: 0 }}
+            animate={reduce ? undefined : { scaleX: 1 }}
             transition={{ duration: 0.7, delay: 0.2 }}
             aria-hidden
           />
