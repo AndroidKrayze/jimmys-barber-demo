@@ -17,6 +17,7 @@ export function JsonLd() {
     description: siteConfig.description,
     telephone: siteConfig.phoneTel,
     url: "https://androidkrayze.github.io/jimmys-barber-demo/",
+    image: "https://androidkrayze.github.io/jimmys-barber-demo/assets/hero.jpg",
     address: {
       "@type": "PostalAddress",
       streetAddress: siteConfig.address.street,
@@ -27,8 +28,8 @@ export function JsonLd() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 51.5485,
-      longitude: -0.1555,
+      latitude: 51.5466553,
+      longitude: -0.1576992,
     },
     openingHoursSpecification,
     aggregateRating: {

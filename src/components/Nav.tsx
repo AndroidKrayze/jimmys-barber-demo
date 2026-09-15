@@ -5,6 +5,7 @@ import { siteConfig } from "../site.config";
 
 const links = [
   { href: "#services", label: "Services" },
+  { href: "#gallery", label: "Gallery" },
   { href: "#reviews", label: "Reviews" },
   { href: "#visit", label: "Visit" },
 ];

@@ -16,13 +16,13 @@ export const siteConfig = {
   phoneTel: "+447932633702",
   phoneHref: "tel:+447932633702",
   mapsUrl:
-    "https://www.google.com/maps/search/?api=1&query=92+Haverstock+Hill+Belsize+Park+London+NW3+2BD",
+    "https://www.google.com/maps/place/Jimmy%27s+Barber+Shop/@51.5466553,-0.1576992,17z/data=!3m1!4b1!4m6!3m5!1s0x48761af1fae9be2b:0xa98b1611db7184d3!8m2!3d51.5466553!4d-0.1576992!16s%2Fg%2F1vg6t6qf",
   mapsEmbed:
     "https://maps.google.com/maps?q=92+Haverstock+Hill,+Belsize+Park,+London+NW3+2BD&z=16&output=embed",
   nearNote: "Near Chalk Farm tube (~0.3 mi)",
   rating: {
     value: 4.8,
-    count: 81,
+    count: 140,
     label: "Google",
   },
   hoursNote:
@@ -118,7 +118,7 @@ export const siteConfig = {
     },
   ],
   trustChips: [
-    "4.8 Google · 81 reviews",
+    "4.8 Google · 140 reviews",
     "Call to book",
     "Near Chalk Farm",
     "No fuss, tidy cuts",
@@ -127,6 +127,33 @@ export const siteConfig = {
     "jimmysbarbernw3.co.uk",
     "jimmyshaverstock.co.uk",
     "jimmysbarberbelsize.co.uk",
+  ],
+  gallery: [
+    {
+      src: "/assets/hero.jpg",
+      alt: "Jimmy's Barber Shop shopfront on Haverstock Hill, gold fascia lettering",
+      caption: "The shopfront on Haverstock Hill",
+    },
+    {
+      src: "/assets/shop-1.jpg",
+      alt: "Interior of Jimmy's Barber Shop — chair, basin and product shelves",
+      caption: "The chair",
+    },
+    {
+      src: "/assets/shop-2.jpg",
+      alt: "Opening hours painted on the shop window at 92 Haverstock Hill",
+      caption: "Hours on the door",
+    },
+    {
+      src: "/assets/shop-3.jpg",
+      alt: "Jimmy's Barber Shop next to Haverstock Tavern on Haverstock Hill",
+      caption: "92 Haverstock Hill",
+    },
+    {
+      src: "/assets/shop-4.jpg",
+      alt: "Looking along Haverstock Hill past Jimmy's Barber Shop",
+      caption: "Along the high street",
+    },
   ],
   seo: {
     title:

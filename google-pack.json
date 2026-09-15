@@ -3,9 +3,9 @@
   "address": "92 Haverstock Hill, Belsize Park, London NW3 2BD",
   "phone": "07932 633 702",
   "rating": 4.8,
-  "reviewCount": 81,
-  "ratingConfirm": false,
-  "ratingNote": "4.8 from 81 reviews via Chamber of Commerce UK directory aggregating Google reviews. Live Maps scrape blocked in this environment — treat as directory-confirmed Google aggregate.",
+  "reviewCount": 140,
+  "ratingConfirm": true,
+  "ratingNote": "4.8 from 140 reviews on Google Maps listing 2026-09-15 (place 0x48761af1fae9be2b:0xa98b1611db7184d3).",
   "reviews": [
     {
       "quote": "Quality barber. No fuss, efficient and very tidy job. Good conversation too.",
@@ -28,7 +28,7 @@
       "source": "Google (via citymaps.uk)"
     },
     {
-      "quote": "Just moved into London… Jimmy was nice, courteous and welcoming. He immediately understood what I wanted and gave me a great cut, while also explaining what he was doing technically. Will definitely come back.",
+      "quote": "Just moved into London\u2026 Jimmy was nice, courteous and welcoming. He immediately understood what I wanted and gave me a great cut, while also explaining what he was doing technically. Will definitely come back.",
       "author": "M. G.",
       "source": "Google (via citymaps.uk)"
     },
@@ -38,16 +38,38 @@
       "source": "Google (via citymaps.uk)"
     },
     {
-      "quote": "Jimmy is great. And before you ask, he doesn’t even know how google works, so these reviews are all just from genuine people who love his haircuts!",
+      "quote": "Jimmy is great. And before you ask, he doesn\u2019t even know how google works, so these reviews are all just from genuine people who love his haircuts!",
       "author": "J. W.",
       "source": "Google (via citymaps.uk)"
     },
     {
-      "quote": "Update: Been coming here for over 10 years… Fast affordable and professional, haven't had a bad cut over several years. Very amicable man, worth it for the conversation alone!",
+      "quote": "Update: Been coming here for over 10 years\u2026 Fast affordable and professional, haven't had a bad cut over several years. Very amicable man, worth it for the conversation alone!",
       "author": "Local regular",
       "source": "Google (via citymaps.uk)"
     }
   ],
-  "photos": [],
-  "notes": "PHOTO BLOCKER: No verified public photos for 92 Haverstock Hill downloaded (Maps/Street View/Fresha placeholders/IG). Do not use Sussex jimmys-barbers.co.uk. Rating 4.8/81 from Chamber Google aggregate."
+  "photos": [
+    {
+      "file": "hero.jpg",
+      "kind": "street-view-shopfront",
+      "panoid": "mgsjziEiQ9zth9gSMWERMw"
+    },
+    {
+      "file": "shop-1.jpg",
+      "kind": "listing-interior"
+    },
+    {
+      "file": "shop-2.jpg",
+      "kind": "listing-hours-window"
+    },
+    {
+      "file": "shop-3.jpg",
+      "kind": "street-view-frontage"
+    },
+    {
+      "file": "shop-4.jpg",
+      "kind": "street-view-high-street"
+    }
+  ],
+  "notes": "5 verified photos for 92 Haverstock Hill only. Rating 4.8/140 from live Google Maps listing. Not Sussex jimmys-barbers.co.uk."
 }

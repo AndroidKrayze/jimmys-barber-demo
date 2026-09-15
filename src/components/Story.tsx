@@ -21,7 +21,7 @@ export function Story() {
               {siteConfig.rating.value}
             </p>
             <p className="mt-1 text-sm text-cream/70">
-              ~{siteConfig.rating.count} {siteConfig.rating.label}
+              {siteConfig.rating.count} {siteConfig.rating.label} reviews
             </p>
             <div className="mt-4 flex gap-1 text-brass" aria-hidden>
               {Array.from({ length: 5 }).map((_, i) => (

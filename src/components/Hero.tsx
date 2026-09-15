@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import { siteConfig } from "../site.config";
+import { withBase } from "../lib/paths";
 
 export function Hero() {
   const reduce = useReducedMotion();
@@ -56,30 +57,26 @@ export function Hero() {
           </p>
         </div>
 
-        <div className="relative flex min-h-[280px] flex-col justify-end bg-forest px-6 py-10 text-cream sm:min-h-[360px] sm:px-10">
+        <div className="relative min-h-[280px] overflow-hidden bg-woodland sm:min-h-[360px] md:min-h-full">
+          <motion.img
+            src={withBase("/assets/hero.jpg")}
+            alt="Jimmy's Barber Shop shopfront on Haverstock Hill"
+            className="absolute inset-0 h-full w-full object-cover object-[center_42%]"
+            initial={reduce ? false : { scale: 1.08, opacity: 0.85 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
+          />
           <div
-            className="pointer-events-none absolute inset-0 opacity-30"
-            style={{
-              backgroundImage:
-                "repeating-linear-gradient(135deg, transparent, transparent 12px, rgba(176,141,87,0.15) 12px, rgba(176,141,87,0.15) 13px)",
-            }}
+            className="absolute inset-0 bg-gradient-to-t from-woodland/70 via-woodland/10 to-transparent"
             aria-hidden
           />
-          <div className="relative z-10 space-y-4">
-            <p className="font-display text-2xl sm:text-3xl">
-              Trusted chair.
-              <br />
-              Cream walls. Brass fixtures.
+          <div className="absolute bottom-5 left-5 right-5 z-10 flex flex-wrap items-end justify-between gap-3">
+            <p className="font-display text-lg text-cream sm:text-xl">
+              92 Haverstock Hill
             </p>
-            <p className="max-w-xs text-sm leading-relaxed text-cream/75">
-              Forest-green leather energy — traditional high-street craft, not a
-              chrome nightclub.
-            </p>
-            <div className="flex gap-2 pt-2">
-              <span className="h-3 w-12 rounded-sm bg-cream" aria-hidden />
-              <span className="h-3 w-8 rounded-sm bg-brass" aria-hidden />
-              <span className="h-3 w-6 rounded-sm bg-parchment/80" aria-hidden />
-            </div>
+            <span className="rounded-full bg-cream/95 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-forest">
+              Google {siteConfig.rating.value} · {siteConfig.rating.count} reviews
+            </span>
           </div>
         </div>
       </div>
